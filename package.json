@@ -1,0 +1,19 @@
+{
+  "name": "jukebox-costume",
+  "version": "1.0.0",
+  "description": "Jukebox costume for Halloween (maybe??)",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zane-programs/jukebox-costume.git"
+  },
+  "author": "Zane St. John",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zane-programs/jukebox-costume/issues"
+  },
+  "homepage": "https://github.com/zane-programs/jukebox-costume#readme"
+}
