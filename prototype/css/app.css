@@ -1,0 +1,97 @@
+main.jukebox-screen-ctnr.testing {
+	width: 800px;
+	height: 480px;
+	border: 1px solid #000;
+}
+
+main.jukebox-screen-ctnr:not(.testing) {
+	width: 100%;
+	height: 100vh;
+	border: none;
+}
+
+main.jukebox-screen-ctnr {
+	margin: 0;
+	padding: 0;
+
+	background-image: url(../img/mahoganybg.jpg);
+
+	position: relative;
+}
+
+div.jukebox-paper-ctnr {
+	width: 93%;
+	height: 65%;
+	position: relative;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	background-color: #f1f0ea;
+	background-image: url(../img/paperbg_newest.png);
+	background-size: 800px;
+
+	border-radius: 10px;
+
+	-webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.69);
+	-moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.69);
+	box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.69);
+}
+
+div.jukebox-album-cover {
+	width: auto;
+	display: inline-block;
+
+	position: relative;
+	top: 50%;
+	left: 25px;
+	transform: translateY(-50%);
+
+	/*width: 60%;
+	max-width: 288px !important;*/
+
+	height: 85%;
+}
+
+div.jukebox-album-cover img {
+	width: auto;
+	height: 100%;
+	max-width: 266px;
+}
+
+div.jukebox-album-cover::after {
+	content: '';
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	background-image: url(../img/paperbg_newest.png);
+	opacity: 0.15;
+}
+
+div.jukebox-song-info {
+	position: absolute;
+	top: 50%;
+	right: 25px;
+	transform: translateY(-50%);
+
+	font-family: 'Special Elite', courier, monospace;
+	text-align: right;
+	word-wrap: break-word;
+
+	max-width: 400px;
+}
+
+div.jukebox-song-info h1 {
+	font-size: 36px;
+
+	margin: 13px 0px 13px 0px;
+}
+
+div.jukebox-song-info div {
+	font-size: 22px;
+}
